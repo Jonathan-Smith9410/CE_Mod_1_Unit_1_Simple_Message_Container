@@ -8,5 +8,5 @@ def message_page():
     return render_template('message_page.html')
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 3032))
+    port = int(os.environ.get('PORT', 3030))
     app.run(debug=True, host='0.0.0.0', port=port)
